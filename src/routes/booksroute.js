@@ -64,7 +64,7 @@ booksRouter.get('/:id',function(req,res){
 
 
 //router to delete book
-booksRouter.post('/delete', function (req, res) {
+booksRouter.post('/delete', function (req, res) {   // # part 2 , point 9 we need to use delete
 
     const id = req.body.id;  
 
